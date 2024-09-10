@@ -1,0 +1,44 @@
+body {
+    color: burlywood;
+    background: black;
+    margin: 0px;
+}
+header {
+    border-bottom: solid 2px rgb(250, 153, 27);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(228, 89, 25);
+}
+section {
+    background: rgb(0, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+div {
+    margin-right: 20px;
+}
+/* código omitido */
+
+section {
+    background: rgb(0, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}img {
+    height: 200px;
+  }
+  .categoria-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+}
